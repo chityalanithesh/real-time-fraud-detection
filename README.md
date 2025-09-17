@@ -70,13 +70,11 @@ docker-compose up -d
 # Run the transaction producer (if needed)
 python scripts/transaction_producer.py
 
+
+
 🔗 Connect With Me
 
 📌 LinkedIn
 
 🛠 Always exploring new ways to optimize data pipelines and real-time analytics!
-
-
----
-
 
