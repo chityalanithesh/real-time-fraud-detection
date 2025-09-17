@@ -1,0 +1,28 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Fraud Detection Dashboard",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "High-Value Transactions",
+        "targets": [
+          {
+            "expr": "transactions_amount{alert='fraud'}",
+            "format": "time_series"
+          }
+        ],
+        "datasource": "Prometheus",
+        "gridPos": {
+          "x": 0,
+          "y": 0,
+          "w": 12,
+          "h": 8
+        }
+      }
+    ],
+    "timezone": "browser",
+    "schemaVersion": 16,
+    "version": 1
+  }
+}
