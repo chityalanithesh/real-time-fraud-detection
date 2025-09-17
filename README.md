@@ -37,3 +37,46 @@ This project is a real-time fraud detection system for banking transactions usin
 
 ## 📂 Project Structure
 
+real-time-fraud-detection/
+│
+├── configs/
+│ └── kafka-config.yaml # Kafka producer settings
+│
+├── dashboards/
+│ └── grafana.json # Grafana dashboard config
+│
+├── docs/
+│ └── real-time-fraud-detection.drawio.png # Architecture diagram
+│
+├── notebooks/
+│ └── transaction_analysis.ipynb # EDA & metric analysis
+│
+├── scripts/
+│ └── fraud_detection_stream.py # Spark streaming fraud logic
+│
+├── README.md
+└── LICENSE
+
+---
+
+## 🚀 How to Run the Project (Optional)
+
+> Add these instructions only if your repo is runnable with Docker. Skip if not yet.
+
+```bash
+# Start Kafka and Spark using Docker Compose
+docker-compose up -d
+
+# Run the transaction producer (if needed)
+python scripts/transaction_producer.py
+
+🔗 Connect With Me
+
+📌 LinkedIn
+
+🛠 Always exploring new ways to optimize data pipelines and real-time analytics!
+
+
+---
+
+
