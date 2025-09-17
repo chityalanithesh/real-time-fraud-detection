@@ -1,0 +1,9 @@
+kafka:
+  bootstrap_servers: "localhost:9092"
+  topic: "bank_transactions"
+  client_id: "fraud-detector"
+  acks: "all"
+  retries: 3
+  linger_ms: 5
+  key_serializer: "org.apache.kafka.common.serialization.StringSerializer"
+  value_serializer: "org.apache.kafka.common.serialization.StringSerializer"
