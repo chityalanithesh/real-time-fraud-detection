@@ -71,10 +71,3 @@ docker-compose up -d
 python scripts/transaction_producer.py
 
 
-
-🔗 Connect With Me
-
-📌 LinkedIn
-
-🛠 Always exploring new ways to optimize data pipelines and real-time analytics!
-
