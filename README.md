@@ -1,4 +1,4 @@
-# real-time-fraud-detection
+# Real-time-fraud-detection
 A real-time banking fraud detection pipeline using Kafka and Spark Streaming.
 
 # 🏦 Real-Time Fraud Detection Pipeline
